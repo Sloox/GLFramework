@@ -5,9 +5,7 @@ http://www.codeblocks.org/
 
 
 ## Basic Usage:
-## Steps to get it all running
-
-
+### Steps to get it all running
 * Call Constructor To Init Winodw
 * Call Glinit and place ur own GLinit function in the function call, must be void function ATM
 * Add key handler, rezier, mousehandler functions to the classes
@@ -34,10 +32,9 @@ http://www.codeblocks.org/
 
 
 ## Last Update
-V0.1--2014/May/25
-_________________________________________________________________________
--Basic creation,
--Support for "glut" like constructs, 
--MouseHandler,KeyHandler,ResizerHandler all done basically,
--added support for Window sizes, titles and positions of glcontext,
--New file and folder structer,
+### V0.1--2014/May/25
+* Basic creation,
+* Support for "glut" like constructs, 
+* MouseHandler,KeyHandler,ResizerHandler all done basically,
+* added support for Window sizes, titles and positions of glcontext,
+* New file and folder structer
