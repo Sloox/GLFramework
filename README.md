@@ -4,26 +4,28 @@ It is built using codeblocks in windows.
 http://www.codeblocks.org/
 
 
-Basic Usage:
-    Steps to get it all running
-    1)Call Constructor To Init Winodw
-    2)Call Glinit and place ur own GLinit function in the function call, must be void function ATM
-    3)Add key handler, rezier, mousehandler functions to the classes
-    4)Call Mainloop function, add glMainloop function of ur own or just call with no param
+## Basic Usage:
+## Steps to get it all running
 
-Basic .dll includes and other prerequisets
-Please ensure the following is included
-    1)glut32.dll is in bin folder-->omp
-    2)libgomp-1.dll is in bin folder -->omp
-    3)Check file locations so that there are no errors in linking
 
-Compiler Options
--fexpensive-optimizations 
--msse4.1 
--fopenmp //OMP enable
--mstackrealign //for SSE
+* Call Constructor To Init Winodw
+* Call Glinit and place ur own GLinit function in the function call, must be void function ATM
+* Add key handler, rezier, mousehandler functions to the classes
+* Call Mainloop function, add glMainloop function of ur own or just call with no param
 
-Linker Options
+## Basic .dll includes and other prerequisets
+### Please ensure the following is included
+* glut32.dll is in bin folder-->omp
+* libgomp-1.dll is in bin folder -->omp
+* Check file locations so that there are no errors in linking
+
+### Compiler Options
+* fexpensive-optimizations 
+* msse4.1 
+* fopenmp //OMP enable
+* mstackrealign //for SSE
+
+### Linker Options
 			<Add library="opengl32" />
 			<Add library="gdi32" />
 			<Add library="Glu32" />
@@ -31,7 +33,7 @@ Linker Options
 			<Add library="gomp" />
 
 
----------------------------Finished Versions---------------------------------------------
+## Last Update
 V0.1--2014/May/25
 _________________________________________________________________________
 -Basic creation,
