@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="GFW\Util\FileManip.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="3112" topLine="91" />
+	</File>
+	<File name="GFW\Util\FileManip.h" open="1" top="0" tabpos="5">
+		<Cursor position="858" topLine="0" />
+	</File>
+	<File name="GFW\glContext\glContext.h" open="0" top="0" tabpos="2">
+		<Cursor position="222" topLine="22" />
+	</File>
+	<File name="GFW\glContext\wContext.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="785" topLine="30" />
+	</File>
+	<File name="GFW\glContext\wContext.h" open="0" top="0" tabpos="0">
+		<Cursor position="651" topLine="0" />
+	</File>
+	<File name="GFW\gpuHandler\glShaderWrapper.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="2751" topLine="76" />
+	</File>
+	<File name="GFW\gpuHandler\glShaderWrapper.h" open="1" top="1" tabpos="2">
+		<Cursor position="518" topLine="0" />
+	</File>
+	<File name="Projects\Parallel\MandleStart.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1112" topLine="10" />
+	</File>
+	<File name="Projects\Parallel\MandleStart.h" open="0" top="0" tabpos="4">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="Projects\Parallel\Mandlebrot.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="19593" topLine="633" />
+	</File>
+	<File name="Projects\Parallel\Mandlebrot.h" open="0" top="0" tabpos="6">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="99" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

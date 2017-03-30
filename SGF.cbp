@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SGF" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\SGF" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Debug" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="&gt;o.txt" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-msse4.1" />
+					<Add option="-fopenmp" />
+					<Add option="-mstackrealign" />
+				</Compiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add library="gdi32" />
+					<Add library="gomp" />
+					<Add library="glut32" />
+					<Add library="glu32" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\SGF" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-g" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GFW\Util\FileManip.cpp" />
+		<Unit filename="GFW\Util\FileManip.h" />
+		<Unit filename="GFW\glContext\glContext.h" />
+		<Unit filename="GFW\glContext\wContext.cpp" />
+		<Unit filename="GFW\glContext\wContext.h" />
+		<Unit filename="GFW\glImports\GLee.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GFW\glImports\GLee.h" />
+		<Unit filename="GFW\glImports\glext.h" />
+		<Unit filename="GFW\gpuHandler\glShaderWrapper.cpp" />
+		<Unit filename="GFW\gpuHandler\glShaderWrapper.h" />
+		<Unit filename="Projects\Parallel\MandleStart.cpp" />
+		<Unit filename="Projects\Parallel\MandleStart.h" />
+		<Unit filename="Projects\Parallel\Mandlebrot.cpp" />
+		<Unit filename="Projects\Parallel\Mandlebrot.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

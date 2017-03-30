@@ -1,0 +1,233 @@
+# depslib dependency file v1.0
+1400968923 source:c:\users\sloox\desktop\sgf\sgf\main.cpp
+	<iostream>
+	<gl/gl.h>
+	<cstdlib>
+	"glContext/wContext.h"
+
+1400968952 source:c:\users\sloox\desktop\sgf\sgf\glcontext\wcontext.cpp
+	<windows.h>
+	<iostream>
+	"wContext.h"
+	"glContext.h"
+
+1400968991 c:\users\sloox\desktop\sgf\sgf\glcontext\wcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"glContext.h"
+
+1400963145 c:\users\sloox\desktop\sgf\sgf\glcontext\glcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1401004653 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\glcontext\wcontext.cpp
+	<windows.h>
+	<iostream>
+	"wContext.h"
+	"glContext.h"
+
+1401003439 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\glcontext\wcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"glContext.h"
+
+1401004448 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\glcontext\glcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1401117902 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\main.cpp
+	<iostream>
+	<gl/gl.h>
+	<cstdlib>
+	"GFW/glContext/wContext.h"
+	"Projects/Parallel/MandleStart.h"
+
+1400764084 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlebrot.h
+
+1401118465 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlebrot.cpp
+	<iostream>
+	<cmath>
+	<GL/gl.h>
+	<GL/glu.h>
+	<gl/glut.h>
+	<stdio.h>
+	<windows.h>
+	"Mandlebrot.h"
+	"../../GFW/glImports/glext.h"
+	<time.h>
+	<omp.h>
+	<xmmintrin.h>
+
+1276638966 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\glcontext\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1401004653 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\wcontext.cpp
+	<windows.h>
+	<iostream>
+	"wContext.h"
+	"glContext.h"
+
+1401003439 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\wcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"glContext.h"
+
+1401004448 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\glcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1276638966 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1401135457 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\main.cpp
+	<iostream>
+	<gl/gl.h>
+	<cstdlib>
+	<stdio.h>
+	"GFW/glContext/wContext.h"
+	"GFW/gpuHandler/glShaderWrapper.h"
+
+1401003439 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\wcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	"glContext.h"
+
+1401004448 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\glcontext.h
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+
+1401118287 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glcontext\wcontext.cpp
+	<windows.h>
+	<iostream>
+	"wContext.h"
+	"glContext.h"
+
+1234028782 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"GLee.h"
+	<Carbon/Carbon.h>
+
+1234028782 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1401118465 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlebrot.cpp
+	<iostream>
+	<cmath>
+	<GL/gl.h>
+	<GL/glu.h>
+	<gl/glut.h>
+	<stdio.h>
+	<windows.h>
+	"Mandlebrot.h"
+	"../../GFW/glImports/glext.h"
+	<time.h>
+	<omp.h>
+	<xmmintrin.h>
+
+1400764084 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlebrot.h
+
+1276638966 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1401119275 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlestart.cpp
+	<iostream>
+	<gl/gl.h>
+	<cstdlib>
+	"../../GFW/glContext/wContext.h"
+	"Mandlebrot.h"
+
+1401102086 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlestart.h
+
+1234028782 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glee.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"GLee.h"
+	<Carbon/Carbon.h>
+
+1234028782 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glee.h
+	<windows.h>
+	<GL/gl.h>
+	<OpenGL/gl.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<stddef.h>
+
+1401118420 source:d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlestart.cpp
+	<iostream>
+	<gl/gl.h>
+	<cstdlib>
+	"../../GFW/glContext/wContext.h"
+	"Mandlebrot.h"
+
+1276638966 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\glimports\glext.h
+	<windows.h>
+	<stddef.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1401102086 d:\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\projects\parallel\mandlestart.h
+
+1401135548 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\gpuhandler\glshaderwrapper.cpp
+	"glShaderWrapper.h"
+	<iostream>
+	<windows.h>
+	<vector>
+
+1401135349 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\gpuhandler\glshaderwrapper.h
+	<string>
+	"../Util/FileManip.h"
+
+1401135428 source:d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\util\filemanip.cpp
+	"FileManip.h"
+	<iostream>
+	<windows.h>
+	<iomanip>
+	<string>
+	<cstdlib>
+	<stdio.h>
+
+1401135020 d:\dropbox\dropbox\honours\framework stuff\my minimalistic gl framework\sgf\gfw\util\filemanip.h
+	<string>
+	<vector>
+
